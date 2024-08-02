@@ -38,6 +38,7 @@ function TextEditor() {
     socket.once('load-document', (document) => {
       if (document){
         quill.setContents(document)
+        console.log(document)
         quill.enable()
       }else {
         console.error("Document not found")

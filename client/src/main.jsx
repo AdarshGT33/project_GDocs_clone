@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Router, Route, RouterProvider, createBrowserRouter, createRoutesFromElements, Routes, Navigate} from 'react-router-dom'
-import { redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate} from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
 import { v4 as uuidV4} from 'uuid'
